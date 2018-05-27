@@ -7,7 +7,7 @@ function takeANumber(katzDeli, newPerson){
 function nowServing(katzDeli){
   if (katzDeli.length>0){
     var firstPerson = katzDeli[0];
-    delete katzDeli[0];
+    katzDeli.shift(0)
     return `Currently serving ${firstPerson}.`;
   } else {
     return "There is nobody waiting to be served!";
