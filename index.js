@@ -19,7 +19,7 @@ function currentLine(katzDeli){
     var position;
     for (var i = 0; i < katzDeli.length; i++){
       position = i+1;
-      if (i === katzDeli.length){
+      if (i === katzDeli.length-1){
         line = `${line} ${position}. ${katzDeli[i]}`;
       } else {
         line = `${line} ${position}. ${katzDeli[i]}, `;
