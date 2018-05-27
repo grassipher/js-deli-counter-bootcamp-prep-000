@@ -15,7 +15,7 @@ function nowServing(katzDeli){
 }
 function currentLine(katzDeli){
   if (katzDeli.length>0){
-    var line;
+    var line ="";
     var position;
     for (var i = 0; i < katzDeli.length; i++){
       position = i+1;
